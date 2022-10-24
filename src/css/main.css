@@ -20,6 +20,10 @@
     font-family: 'montserrat', sans-serif;
 }
 
+.todo-content input{
+    width: 100%;
+}
+
 input:not([type="radio"]):not([type="checkbox"]),
 button {
     appearance: none;
