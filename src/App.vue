@@ -29,7 +29,7 @@ watch(name, (newVal) => {
 })
 onMounted(() => {
   name.value = localStorage.getItem('name') || '',
-    todos.value = JSON.parse(localStorage.getItem('todos'))
+    todos.value = JSON.parse(localStorage.getItem('todos')) || []
 })
 const removeToDo=(todo) => {
   todos.value = todos.value.filter(t => t != todo);
