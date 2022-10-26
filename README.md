@@ -1,4 +1,8 @@
-# vue_todoapp
+# vue_todoapp 
+
+### Demo
+```
+https://vuejs-todolistapp.netlify.app/
 
 ## Project setup
 ```
